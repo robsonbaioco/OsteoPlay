@@ -390,6 +390,9 @@ section {
   margin: 15px 0 0 0;
   font-size: 26px;
 }
+h4 {
+  color: #fff;
+}
 .hero .btn-get-started {
   margin-top: 30px;
   line-height: 0;
@@ -2045,6 +2048,16 @@ div.social-links.mt-3{
   background: #f6f9ff;
   background: -webkit-linear-gradient(to right, #F49461, #F25156);
   background: linear-gradient(to right, #F49461, #F25156);
+}
+
+.tac{
+  text-align: center;
+}
+.floatr{
+  float: right;
+}
+.margin-left-30{
+  margin-left: 30px;
 }
 
 /* .half-oval-bottom {
