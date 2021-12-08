@@ -18,12 +18,10 @@ body {
 }
 
 a {
-  color: #4154f1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
   text-decoration: none;
 }
 
@@ -254,7 +252,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #fff;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -339,7 +337,7 @@ section {
   color: #fff;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: #fff;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -384,6 +382,9 @@ section {
   font-size: 48px;
   font-weight: 700;
   color: #fff;
+}
+.hero h1 .text-black{
+  color: #000 !important;
 }
 .hero h2 {
   color: #fff;
@@ -2058,6 +2059,69 @@ div.social-links.mt-3{
 }
 .margin-left-30{
   margin-left: 30px;
+}
+.tal{
+  text-align: left;
+}
+.text-black{
+  color: #000 !important;
+}
+.container-bordered{
+  border: 1px solid rgba(90, 83, 83, 0.767);
+}
+.menu-perfil li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.menu-perfil a {
+ text-decoration: none;
+ color: white;
+}
+.menu-perfil {
+  color: white;
+  padding-top: 10px;
+}
+.btn-perfil {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: -webkit-linear-gradient(to right, #F49461, #F25156);
+  background: linear-gradient(to right, #F49461, #F25156);
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  position: relative;
+  top: 40%
+}
+.btn-perfil :hover{
+  color: #fff;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.social-links-perfil a {
+  color: black !important;
+  font-size: 25px !important;
+}
+.social-links-perfil i {
+  color: black !important;
+  font-size: 35px !important;
+  padding-right: 10px;
+}
+.social-links-perfil{
+  padding-top: 10px;
+}
+.btn-senha {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff !important;
+  background: -webkit-linear-gradient(to right, #F49461, #F25156);
+  background: linear-gradient(to right, #F49461, #F25156);
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  margin: 0 30%;
+  margin-bottom: 20px;
 }
 
 /* .half-oval-bottom {
