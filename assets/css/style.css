@@ -2126,7 +2126,28 @@ div.social-links.mt-3{
 .form-group, .form-check{
   margin: 10px 0;
 }
-
+.grandchild {
+  float: left;
+}
+.clearboth {
+  clear: both;
+}
+.trofeu{
+width: 80px;
+height: 80px;
+margin: 10px;
+}
+.cblack{
+  color: #000 !important;
+}
+.slick-next, .slick-arrow{
+  background: -webkit-linear-gradient(to right, #F49461, #F25156) !important;
+  background: linear-gradient(to right, #F49461, #F25156) !important;
+  border-radius: 50% !important;
+}
+.margin-left-30{
+  margin-left: 30px;
+}
 /* .half-oval-bottom {
   position: absolute;
   bottom: 0;
