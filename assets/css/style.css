@@ -2148,6 +2148,25 @@ margin: 10px;
 .margin-left-30{
   margin-left: 30px;
 }
+.hidden{
+  display: none;
+}
+.hidden-fade-out{
+  display: none;
+  -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+}
+.show-fade-in{
+  display: block;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
 /* .half-oval-bottom {
   position: absolute;
   bottom: 0;

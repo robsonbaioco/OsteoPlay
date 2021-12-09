@@ -28,6 +28,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- =======================================================
   * Template Name: FlexStart - v1.9.0
   * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
@@ -89,7 +90,7 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, mauris elit vestibulum ut. Lorem gravida tempor odio leo curabitur libero. Ac id eu elit enim nunc a aliquam. Felis accumsan nec vestibulum justo, ipsum pellentesque suspendisse pellentesque ultrices. Porttitor morbi turpis volutpat massa volutpat. Odio donec aenean netus mi non id ut. Odio purus semper proin lacinia at ut. Sed cras malesuada dapibus at est eu. Neque aenean aliquet eu sed cras urna est non. Elementum cras platea vel turpis lectus bibendum. Amet nec egestas interdum scelerisque metus, in egestas.
             </p>
-            <form action="" method="post" class="">
+            <form action="" method="post" id="form">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
@@ -181,11 +182,20 @@
                     </label>
                 </div>
                 <div class="text-center text-lg-start">
-                    <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center floatr">
-                      <span>ENVIAR</span>
-                    </a>
+                    <input type="submit" value="ENVIAR" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center floatr">
+                   
                   </div>
             </form>
+            <div id="submited" class="hidden">
+                <p class="text-center">
+                    <strong>
+                        Registro enviado com sucesso.
+                    </strong>
+                </p>
+                <p class="text-center">
+                    Volte amanhã para responder novamente.
+                </p>
+            </div>
         </div>
     </section>
 
@@ -234,7 +244,18 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    $(document).ready(function() {
+      $('#form').submit(function(e) {
+        e.preventDefault();
+        var form = $(this);
+        var submited = $('#submited');
+        form.hide();
+        submited.show();
+       
+      });        
+    });
+  </script>
 </body>
 
 </html>
