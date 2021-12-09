@@ -2123,6 +2123,9 @@ div.social-links.mt-3{
   margin: 0 30%;
   margin-bottom: 20px;
 }
+.form-group, .form-check{
+  margin: 10px 0;
+}
 
 /* .half-oval-bottom {
   position: absolute;
